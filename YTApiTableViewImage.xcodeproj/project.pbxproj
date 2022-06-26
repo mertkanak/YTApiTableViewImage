@@ -13,6 +13,8 @@
 		A87E4E2328691C3000665BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87E4E2128691C3000665BC3 /* Main.storyboard */; };
 		A87E4E2528691C3400665BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87E4E2428691C3400665BC3 /* Assets.xcassets */; };
 		A87E4E2828691C3500665BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87E4E2628691C3500665BC3 /* LaunchScreen.storyboard */; };
+		A87E4E3228691EEA00665BC3 /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E4E3128691EEA00665BC3 /* HeroViewController.swift */; };
+		A87E4E342869201700665BC3 /* HeroStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E4E332869201700665BC3 /* HeroStats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A87E4E2428691C3400665BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A87E4E2728691C3500665BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A87E4E2928691C3500665BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87E4E3128691EEA00665BC3 /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
+		A87E4E332869201700665BC3 /* HeroStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroStats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				A87E4E2428691C3400665BC3 /* Assets.xcassets */,
 				A87E4E2628691C3500665BC3 /* LaunchScreen.storyboard */,
 				A87E4E2928691C3500665BC3 /* Info.plist */,
+				A87E4E3128691EEA00665BC3 /* HeroViewController.swift */,
+				A87E4E332869201700665BC3 /* HeroStats.swift */,
 			);
 			path = YTApiTableViewImage;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87E4E3228691EEA00665BC3 /* HeroViewController.swift in Sources */,
 				A87E4E2028691C3000665BC3 /* ViewController.swift in Sources */,
 				A87E4E1C28691C3000665BC3 /* AppDelegate.swift in Sources */,
+				A87E4E342869201700665BC3 /* HeroStats.swift in Sources */,
 				A87E4E1E28691C3000665BC3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
